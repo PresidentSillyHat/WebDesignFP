@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+#logo{
+	width:auto;
+	height:auto;
+	max-height:100px;
+	max-width:100px;
+	position:absolute;
+	margin-left:195px;
+	
+}
+#leftCol{
+	float:left;
+	margin-right:100px;
+	margin-left:50px;
+	
+}
+#rightCol{
+	float:left;
+	margin-right:50px;
+	margin-bottom:25px;
+	
+}
+div.box{
+	display:block;
+	height:150px;
+	width:400px;
+	background-color:rgba(255,255,255,.7);
+	margin-bottom:25px;
+}
+div.miniBox{
+	float:left;
+	width:230px;
+	height:150px;
+}
+h2{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size:28px;
+	margin:25px;
+}
+h3{
+	text-align:center;
+	margin-bottom:0px;
+	font-family: Courgette;
+	font-size:20px;
+	
+}
+p{
+	width:200px;
+	font-family: Courgette;
+	font-size:16px;
+	margin-top:5px;
+	margin-left:10px;
+}
+img{
+	padding-top:20px;
+	padding-left:20px;
+	float:left;
+	width: 150px;
+	height:110px;
+}

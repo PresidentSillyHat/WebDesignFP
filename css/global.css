@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+div.wrapper{
+		width:1000px;
+		margin:auto;
+		padding:0px;
+		text-align:center;	
+}
+body{
+	background: url("../images/background2.jpg")center center fixed;
+}
+h1{
+	font-family: Courgette;
+	font-size:40px;
+}
+div.navBar{
+		height:25px;
+		margin-bottom:25px;
+}
+ul.nav li{
+		display:block;
+		float:left;
+		border:solid 1px;
+		padding: 5px;
+		width: 100px;
+		text-align:center;
+		background-image:url("../images/button.jpeg");
+		background-size: 100px;
+		
+}
+ul.nav{
+		list-style-type:none;
+		padding-left:165px;	
+		margin:0px;
+		
+}
+ul.nav a:link{
+		font-family: Arial,Helvetica,sans-serif;
+		font-size:12px;
+		text-decoration:none;
+		letter-spacing:2px;
+		color:#ffffff;
+}
+ul.nav a:visited{
+	color:#ffffff;
+}
+ul.nav li:hover{
+	background-image:url("../images/buttonhover.jpeg");
+	background-size:100px;
+}
+#activated{
+	border: solid 1px;
+	border-color:#ffffff;
+	background-image:url("../images/buttonpress.jpeg");
+	background-size: 100px;
+}
+#footer{
+	float:left;
+	text-align:center;
+	margin-top:50px;
+	width:1000px;
+	color:#ffffff;	
+}
